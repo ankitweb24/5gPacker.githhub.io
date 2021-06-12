@@ -1,0 +1,49 @@
+*{
+padding :0;
+margin:0;
+box-sizing:border-box;
+}
+nav{
+    position: fixed!important;
+    z-index: 99;
+    width: 100%;
+    background-color: transparent;
+}
+
+.wt{
+    /* position: fixed; */
+    width: 70px;
+    height: 70px;
+    background-color: yellowgreen;
+    z-index: 99;
+    place-items: center;
+    display: grid;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    margin: 5px;
+    position: fixed;
+    bottom: 0;
+}
+.call{
+    right: 0;
+    width: 70px;
+    height: 70px;
+    background-color: yellowgreen;
+    z-index: 99;
+    place-items: center;
+    display: grid;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    margin: 5px;
+    position: fixed;
+    bottom: 0;
+}
+
+.wt, .call a{
+    color: #fff!important;
+}
+.wt a{
+    color: #fff!important;
+}
